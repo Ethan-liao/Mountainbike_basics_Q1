@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src='jquery-3.2.1.js' type='text/javascript'></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Bike Basics</title>
+
+  <link rel="stylesheet" href="dopelessHotspots/css/style.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/bk.css">
+
+  <script src='release/spritespin.js' type='text/javascript'></script>
+  <script src="dopelessHotspots/scripts/dopelessHotspots.min.js" type='text/javascript'></script>
+  <script src="JS/index.js" type="text/javascript"></script>
+  <script src="JS/G-Maps.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+  <!-- header -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+      <a class="navbar-brand" href='#'>Bike Basics</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href='#'>Moutain bike</a></li>
+        <li><a href="#about">Biking trails</a></li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <!-- <div class="container"> -->
+
+    <div id="high"class="row">
+      <h1 class="text-center" >HIGHLIGHTS</h1>
+    </div>
+  <!-- </div> -->
+  <div class="row">
+
+    <div id='my_hotspot' class="col-lg-1 col-centered">
+      <img src="Bike_images/01.jpg">
+      <a class="sethotspot" href=''#'' title="Rear Derailleurs" posix='19' posiy='63'>Rear derailleurs</a>
+      <a class="sethotspot" href='#' title='Gears' posix='40' posiy='55'>Gearing consists of sprockets, a chain and deraileurs</a>
+      <a class="sethotspot" href='#' title='Frame' posix='60' posiy='20'>The frame</a>
+      <a class="sethotspot" href='#' title='Wheel' posix='20' posiy='30'>29inch Wheel</a>
+      <a class="sethotspot" href='#' title='Front Derailer' posix='68' posiy='32'>Front suspension</a>
+      <a class="sethotspot" href='#' title='Front Suspension' posix='43' posiy='38'>Rear suspension</a>
+      <a class="sethotspot" href='#' title='Disk Brakes' posix='79' posiy='50'>Disk brakes</a>
+    </div>
+
+
+  </div>
+
+  <!-- thumbnail -->
+  <div class="col-md-12 textured">
+    <div class="container">
+
+      <div class="row">
+        <h1 class="text-center" style="color:white">More info</h1>
+      </div>
+    </div>
+    <div class="row thumb">
+
+    </div>
+
+    <!-- popup div -->
+    <div id="myModal" class="modal">
+
+      <div class="div-popups">
+        <div class="close">&times;</div>
+        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+        <div id="map"></div>
+        <h4 class="popup-txt"></h4>
+        <img class="popup-img"src="" >
+        <p class="pgraph-popups"></p>
+      </div>
+    </div>
+
+    <!-- popup div end -->
+
+    <div class="row">
+      <div class="col-sm-6 col-md-2">
+        <div class="thumbnail">
+          <img class="pic" src="Bike_images/bike-frame.jpg">
+          <div class="caption">
+            <h3>Bike frame</h3>
+            <p><button id="frame" type="button" class="btn btn-primary">More info</button></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class=" col-sm-6 col-md-2">
+        <div class="thumbnail">
+          <img class="pic" src="Bike_images/originals/Derailleur copy.jpg" >
+          <div class="caption">
+            <h3>Derailleurs</h3>
+            <p><a id="derail" class="btn btn-primary" >More info</a></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class=" col-sm-6 col-md-2">
+        <div class="thumbnail" >
+          <img style='padding-top:43px; padding-bottom:33px;' class="pic" src="Bike_images/originals/cassette.jpg">
+          <div class="caption">
+            <h3>Cassettes</h3>
+            <p><a  id="cassettes" class="btn btn-primary" role="button">More info</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col-sm-6 col-md-2">
+        <div class="thumbnail">
+          <img class="pic" src="Bike_images/originals/suspension copy.jpg">
+          <div class="caption">
+            <h3>Suspension</h3>
+            <p><a  id="suspension" class="btn btn-primary" role="button">More info</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col-sm-6 col-md-2">
+        <div class="thumbnail" style='padding-top:33px'>
+          <img class="pic"  src="Bike_images/originals/wheel.jpg">
+          <div class="caption">
+            <h3>Wheel</h3>
+            <p><a  id="wheel" class="btn btn-primary" role="button">More info</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col-sm-6 col-md-2">
+        <div class="thumbnail">
+          <img class="pic" src="Bike_images/originals/pedals copy.jpeg">
+          <div class="caption">
+            <h3>Pedals</h3>
+            <p><a  id="pedals" class="btn btn-primary" role="button">More info</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- google button -->
+
+    <div class="row">
+      <p class="text-center"><a type="button" class="btn btn-primary" role="button" id="google">Ready to go biking?</a></p>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div id='mySpriteSpin' class="col-lg-1 col-centered"></div>
+
+  </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKzb0FsuBF7QxTExGeiG67yMuGdun5soc&libraries=places&callback=initAutocomplete"
+         async defer></script>
+</body>
+
+</html>
