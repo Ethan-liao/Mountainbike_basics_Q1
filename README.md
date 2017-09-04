@@ -14,7 +14,7 @@ New to the biking world? Should you buy a bike with both front and back suspensi
 
 * Google maps API
 * Wikipedia API
-* ImageSprite plugins
+* Image Sprites plugins
 * Jquery
 
 
