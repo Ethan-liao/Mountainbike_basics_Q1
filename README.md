@@ -1,7 +1,7 @@
-#[Mountain Bike Basics](show-both-staged-and-unstaged-changes)
+# Mountain Bike Basics
 
 ## Synopsis
-
+Welcome to [Mountain Bike Basics](show-both-staged-and-unstaged-changes)
 New to the biking world? Should you buy a bike with both front and back suspension? Buy a bike with more gears? less? what is a derailer?!
 MTB-basics will help you understand the different functioning parts of a mountain bike from gears to the front hydraulic suspension. 
 
