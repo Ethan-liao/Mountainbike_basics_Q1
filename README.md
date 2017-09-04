@@ -1,21 +1,18 @@
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+New to the biking world? Should you buy a bike with both front and back suspension? Buy a bike with more gears? less? what is a derailer?!
+MTB-basics will help you understand the different functioning parts of a mountain bike from gears to the front hydraulic suspension. 
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+1) I have just learnt about maintaining a mountain bike and upon researching there weren't any intuitive websites that offered a simple pictorial description of bike parts. Most required you to read hundreds of lines of text. 
+2) One month into learning about web development I wanted to push my boundaries to see what's possible, what I can develope in one week. I wanted to make an interactive 3D model of a mountain bike where you can click on parts and a part description will pop up.
 
-## Installation
+## Technology used
 
-Provide code examples and explanations of how to get the project.
+Google maps API
+ImageSprite plugins
+Jquery
 
-## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
-## Tests
