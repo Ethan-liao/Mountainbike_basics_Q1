@@ -11,6 +11,7 @@ MTB-basics will help you understand the different functioning parts of a mountai
 ## Technology used
 
 Google maps API
+Wikipedia API
 ImageSprite plugins
 Jquery
 
