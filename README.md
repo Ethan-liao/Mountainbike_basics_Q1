@@ -12,10 +12,10 @@ New to the biking world? Should you buy a bike with both front and back suspensi
 
 ## Technology used
 
-*Google maps API
-*Wikipedia API
-*ImageSprite plugins
-*Jquery
++Google maps API
++Wikipedia API
++ImageSprite plugins
++Jquery
 
 
 
