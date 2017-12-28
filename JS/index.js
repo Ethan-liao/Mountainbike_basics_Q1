@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(()=> {
   let search = '';
   let $modal = $('#myModal');
   let $button = $('.btn');
@@ -13,7 +13,7 @@ $(document).ready(function() {
     $modal.show("block");
     let $buttonId = $(this).attr('id');
 
-    if ($buttonId =='frame'){
+    if ($buttonId == 'frame'){
         search = "Bicycle frame";
         $('.popup-txt').text('Frame');
         $('.popup-img').attr('src','')
@@ -56,10 +56,9 @@ $(document).ready(function() {
       $actualMap.show();
 
     }
-
       })
 
-      $closeM.click(function() {
+      $closeM.click(()=>{
         $modal.hide("slow");
         $('.popup-txt').text('');
         $('.popup-img').attr('src','')
@@ -69,10 +68,10 @@ $(document).ready(function() {
 
 
 
-let wiki = function(){
+let wiki = () => {
   var xhr = new XMLHttpRequest();
 
-  xhr.addEventListener('load', function() {
+  xhr.addEventListener('load',() => {
     if (xhr.status !== 200) {
       return;
     }
@@ -92,9 +91,6 @@ let wiki = function(){
 
   xhr.send();
 }
-
-
-
 
 
   // calling images
