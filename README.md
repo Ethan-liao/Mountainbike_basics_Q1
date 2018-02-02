@@ -4,7 +4,9 @@
 
 New to the biking world? Should you buy a bike with both front and back suspension? Buy a bike with more gears? less? what is a derailer?!
 [Mountain Bike Basics](https://ethanl-mtb-basics.surge.sh) will help you understand the different functioning parts of a mountain bike from gears to the front hydraulic suspension. 
+
 ![bikebasics](https://media.giphy.com/media/3o6nV3yEaHTrjWXZTi/giphy.gif "bikebasics")
+
 ## Motivation
 
 1. I have just learnt about maintaining a mountain bike and upon researching there weren't any intuitive websites that offered a simple pictorial description of bike parts. Most required you to read hundreds of lines of text. 
